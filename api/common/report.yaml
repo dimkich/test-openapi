@@ -1,0 +1,9 @@
+components:
+  schemas:
+    IssuerReportCreate:
+      type: object
+      properties:
+        metrics:
+          type: array
+          items:
+            $ref: './metric.yaml#/components/schemas/IssuerReportMetricCreate'
